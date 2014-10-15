@@ -10,8 +10,8 @@ Install the module with: ``npm i qunit-color``
 ```javascript
 var $$Q = require('qunit-color');
 
-$$Q.module( "qunit-color");
-$$Q.test('main test', function (assert) {
+$$Q.module( "testProjectName: qunit-color");
+$$Q.test('unitName: main', function (assert) {
 	assert.ok(true, 'true');
 	assert.ok(false, 'false');
 	assert.deepEqual('aa bb cc dd','kk cc bb ee ff', 'str diff');
@@ -26,7 +26,8 @@ $$Q = require('../qunit-color.js').setColorConf({
 ```
 
 ## Contributing
-[quintjs](http://qunitjs.com/) [colors](https://www.npmjs.org/package/colors).
+[quintjs](http://qunitjs.com/),
+[colors](https://www.npmjs.org/package/colors).
 
 ## Release History
 --

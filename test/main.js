@@ -6,8 +6,8 @@ var assert = require('assert')
 ;
 
 
-$$Q.module( "qunit-color");
-$$Q.test('main test', function (assert) {
+$$Q.module( "testProjectName: qunit-color");
+$$Q.test('unitName: main', function (assert) {
 	assert.ok(true, 'true');
 	assert.ok(false, 'false');
 	assert.deepEqual('aa bb cc dd','kk cc bb ee ff', 'str diff');
