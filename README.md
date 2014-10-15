@@ -20,7 +20,7 @@ $$Q.load();
 ```
 Not show result and expect log:
 ```javascript
-$$Q = require('../qunit-color.js').setColorConf({
+$$Q = require('qunit-color').setColorConf({
 	onlyDiff : true
 });
 ```
