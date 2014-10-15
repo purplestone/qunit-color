@@ -1,0 +1,26 @@
+{
+  "name": "qunit-color",
+  "description": "A Qunitjs with color log for node dev.",
+  "version": "1.15.0",
+  "homepage": "https://github.com/purplestone/qunit-color",
+  "author": {
+    "name": "gaoyuan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purplestone/qunit-color"
+  },
+  "bugs": {
+    "url": "https://github.com/purplestone/qunit-color/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "./qunit-color.js",
+  "keywords": ["qunit", "unit test", "test", "xUnit"],
+  "dependencies": {
+    "colors": "^1.0.3"
+  }
+}
