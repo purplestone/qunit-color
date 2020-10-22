@@ -24,6 +24,9 @@ $$Q = require('qunit-color').setColorConf({
 	onlyDiff : true
 });
 ```
+## Docs
+[Quint docs v1.15.0](https://github.com/qunitjs/api.qunitjs.com/tree/v1.15.0/entries)
+
 
 ## Contributing
 [quintjs](http://qunitjs.com/),
